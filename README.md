@@ -35,7 +35,8 @@ bundle exec xcversion install 12.5
 
 # 仕組み
 
-- 環境を汚さないため、Ruby Bundlerでxcode-install(xcversion)とそのディペンデンシを管理します。それだけです。
+- xcode-install<https://github.com/xcpretty/xcode-install>を使ってXcodeの複数バージョンを管理します。
+- 環境を汚さないため、Ruby Bundlerでxcode-install(xcversion)と依存パッケージを管理します。
 
 # メモ
 
