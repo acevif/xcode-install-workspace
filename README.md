@@ -27,6 +27,14 @@ Credential yourappleid@example.com:\*\*\*\*\*\*\*\* added to keychain.
 bundle exec xcversion list
 ```
 
+## インストール済みのバージョンを調べる
+
+```zsh
+bundle exec xcversion installed
+```
+
+ただしbetaであることなどはわからない可能性が高い。要検証。
+
 ## インストールする
 
 ```zsh
